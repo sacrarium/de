@@ -1,0 +1,110 @@
+/* Styles */
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	border: none;
+}
+
+legend {
+	margin: 10px 0px;
+	padding: 0;
+	color: #005282;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+label {
+	float: left;
+	width: 150px;
+	padding: 0 1em;
+	text-align: left;
+}
+
+fieldset div {
+	margin-bottom: .5em;
+	padding: 0;
+	display: block;
+}
+
+fieldset div input, fieldset div textarea {
+	/*border-top: 1px solid #555;
+	border-left: 1px solid #555;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;*/
+	padding: 1px;
+	color: #005282;
+}
+
+fieldset div select {
+	padding: 1px;
+	}
+
+div.multi div {
+	margin: 5px 0;
+}
+
+div.multi input {
+	width: 1em;
+}
+
+div.multi label {
+	display: block;
+	width: 200px;
+	padding-left: 5em;
+	text-align: left;
+}
+
+
+
+input:focus, textarea:focus {
+	background: #fdfdfd;
+	color: #193B52;
+}
+
+	
+/* required fields - does not work in IE */
+fieldset div.item {
+	font-weight: normal;
+}
+
+.dd{
+	border: 1px solid #FFFFFF;
+	width: auto;
+	height: auto;
+}
+
+.txtbox{
+	width: 400px;
+}
+
+.txtbox2{
+	width: 370px;
+}
+
+.jump{
+
+}
+
+.long{
+width:200px;
+}
+
+.longer{
+width:350px;
+}
+
+.short{
+width:80px;
+}
+
+.short2{
+width:40px;
+}
+
+.aantal{
+width:40px;
+}

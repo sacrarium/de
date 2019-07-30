@@ -1,0 +1,181 @@
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	color: #555555;
+	/*font-size:120%*/
+	
+}
+
+table td {
+	padding: 5px;
+	line-height: 1.8em;
+	font-size: 0.9em;
+	vertical-align: top;
+	
+}
+
+.tr1 {
+	background: #faf9f4;
+	
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+GRID
+--------------------------------------------------------------------------------
+*/
+
+.grid table {
+	border-collapse: collapse;
+	color: #555555;
+	border: 1px solid #e8e6dc;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:110%;
+}
+
+
+.grid table a {
+	text-decoration: none;
+	color: #996600;
+}
+
+.grid table a span {
+	text-decoration: none;
+	color: #444;
+}
+
+.grid table a:hover {
+	text-decoration: none;
+	color: #555555;
+}
+
+.grid table tr th  {
+	font-style:normal;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.grid table tr th a {
+	color: #e9b026;
+	}
+
+.grid table tr th a:hover {
+	color: #555555;
+}
+
+.grid table thead tr th {
+	background: url(../images/bg_beigebar.gif);
+}
+
+.grid table tfoot tr th, .grid table tfoot tr td {
+	text-transform: uppercase;
+	color: #555555;
+	
+}
+
+.grid table tfoot tr th {
+}
+
+.grid table tfoot tr td {
+}
+
+.grid table td{
+	border-right: 1px solid #e8e6dc;
+	border-bottom: 1px solid #e8e6dc;
+	padding: 5px;
+	line-height: 1.8em;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+.grid table th {
+	border-right: 1px solid #e8e6dc;
+	border-bottom: 1px solid #e8e6dc;
+	padding: 5px;
+	line-height: 1.8em;
+	vertical-align: top;
+	font-weight: normal;
+	text-align:left;
+}
+
+.grid table tr td h3  {
+	font-style:normal;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.grid table tr.odd td {
+	background: #fafafa;
+}
+
+
+.grid table tr.sold td {
+	background: #fafafa;
+}
+
+
+.grid table tr.subtotal td {
+	background: #fafafa;
+}
+
+.grid table tr.admincost td {
+	background: #fff;
+}
+
+.grid table tr.sendcost td {
+	background: #fff;
+}
+
+.grid table tr.total td {
+	background: #faf9f4;
+	font-weight:bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.grid table tr td .rechts {
+	text-align:right;
+}
+
+.grid .tdtitle{
+	font-weight: bold;
+	font-size:11px;
+	color: #444;
+}
+
+.grid .tdtitle a{
+	color: #666;
+	text-decoration:none;
+}
+
+.grid .tdtitle a:hover{
+	color: #996600;
+	text-decoration:none;
+	
+}
+
+.tdtxt{
+	font-size: 10px;
+}
+
+.tdstock{
+	color: #996600;
+}
+
+/* ******************* DLOAD ************************ */
+
+.grid table tr .dloadlink{
+	color: #666;
+}
+
+.grid table tr .dloadlink a{
+	color: #666;
+}
+
+.grid table tr .dloadlink a:hover{
+	color: #DEA417;
+}
